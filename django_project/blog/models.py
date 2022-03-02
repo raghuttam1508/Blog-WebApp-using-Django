@@ -3,6 +3,12 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.urls import reverse
 
+# import json
+
+# json_data = open("django_project//posts.json")
+# posts = json.load(json_data)
+# post = json.dumps(posts)
+
 
 class Post(models.Model):
     title = models.CharField(max_length=100)
